@@ -1,43 +1,14 @@
 {
     "settings": {
-        "cryptocurrencies": {
-            "BTC": {
-              "symbol": "BTC",
-              "api_url": "https://api.blockchain.info/haskoin-store/btc/address/",
-              "api_get_balance": "confirmed"
-            },
-            "ETH": {
-                "symbol": "ETH",
-                "api_url": "https://api.etherscan.io/api?module=account&action=balance&address=",
-                "api_get_balance": "result",
-                "api_key": "C479PWFCZ6E1BSVWWSFIR3ESP7B7H3Z8BH"
-            },
-            "LTC": {
-              "symbol": "LTC",
-              "api_url": "https://api.blockcypher.com/v1/ltc/main/addrs",
-              "api_get_balance": "balance"
-            },
-            "DOGE": {
-                "symbol": "DOGE",
-                "api_url": "https://dogebook.nownodes.io/api/v2/address/",
-                "api_get_balance": "balance",
-                "api_key":"8608e697-5b67-454a-aa66-f11fdb636534"
-            },
-            "TRX": {
-              "symbol": "TRX",
-              "api_url": "https://apilist.tronscan.org/api/account?address=",
-              "api_get_balance": "balance"
-            }
-        },
         "checker": {
             "filename": "check.txt"
         },
         "bruteforcer": {
-            "STRENGTH_OPTIONS": "128, 160, 228, 192, 224, 256",
-            "strength": 128,
+            "STRENGHT_OPTIONS": "128, 160, 228, 192, 224, 256",
+            "strenght": 128,
             "LANGUAGE_OPTIONS": "english, french, italian, spanish, chinese_simplified, chinese_traditional, japanese, korean",
             "language": "english",
-            "passphrase": "None"
+            "passphere": "None"
         },
         "general": { 
             "failed": "failed.txt",
